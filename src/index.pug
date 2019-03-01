@@ -1,10 +1,12 @@
 doctype html
 html
-    head
-    meta(charset = 'utf-8')
-    meta(name='viewport', content="initial-scale=1.0, width=device-width")
-    title Webpack app
-    body
-        h1 test pug
-        p.light test fonts
-        p.bold test fonts
+	head
+		meta(charset = 'utf-8')
+		meta(name='viewport', content="initial-scale=1.0, width=device-width")
+		title Webpack app
+	body
+		main.page
+			.wrapper
+				section.left-col
+					include block-cutaway/cutaway.pug 
+				section.right-col

@@ -27,17 +27,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   padding: 0;
-  .light {
-    font-family: $lightFont;
-  }
-  .bold {
-    font-family: $boldFont; 
-  }
 }
 
 *, *:before, *:after { box-sizing: border-box; }
 
-h1, h2, h3, h4, h5, h6 { margin: 0; }
+h1, h2, h3, h4, h5, h6 { 
+  margin: 0; 
+  font-family: $boldFont;
+}
 
 a {
 	text-decoration: none;
@@ -51,7 +48,7 @@ ul, li {
 
 section, .section {
   position: relative;
-  padding: 40px 0;
+  padding: 0 0;
   @media screen and (max-width: $desktopWidth) {
     padding: 36px 0;
   }
@@ -67,7 +64,11 @@ section, .section {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  margin: 0 auto;
+  margin: percH(118, $defaultHeight) percW(93, $defaultWidth) percH(148, $defaultHeight) percW(94, $defaultWidth);
+}
+
+.left-col {
+  width: percW(640, $defaultWidth);
 }
 
 .content-wrapper {
@@ -92,3 +93,5 @@ section, .section {
     max-width: smPhoneWidth;
   }
 }
+
+@import "../block-cutaway/cutaway.scss"

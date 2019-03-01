@@ -1,0 +1,26 @@
+@import "cutaway_theme_circle.scss";
+
+.cutaway {
+	width: 100%;
+	text-align: center;
+	.cutaway__avatar-border {
+		width: size(percW(359, 640));
+		.cutaway__avatar-container {
+			width: size(percW(314, 359));
+			.cutaway__avatar {
+				min-width: 100%;
+			}
+		}//*/
+	}
+	.h1 {
+		font-size: rem(67.99);
+	}
+	.h2 {
+		font-family: $lightFont;
+		font-size: rem(57.54);
+	}
+	.h4 {
+		font-size: rem(27.52);
+	}
+}
+
