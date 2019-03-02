@@ -1,11 +1,11 @@
 @import "heading/heading.scss";
+@import "indent_wrapper_theme.scss";
 
 .profile {
 	.profile__wrapper {
-		margin-top: 14.5%;
-		margin-right: 3%;
+		margin-top: 14.8%;
 		.profile__text-box {
-			margin-top: -2px;
+			margin-top: -5px;
 			.profile__text {
 				line-height: 120%;
 				letter-spacing: -0.12px;

@@ -57,20 +57,21 @@ main {
 
 .wrapper {
   background-color: $primary-color;
-  margin: 6% 5%;
+  margin: 6% 5% auto 4.9%;
   display: flex;
   justify-content: space-between;
 }
 
 .left-col {
- background-color: #FFF;
+  background-color: #FFF;
   width: 38%;
 }
 
 .right-col {
- background-color: #fff;
+  background-color: #fff;
   width: 56.5%;
 }
 
 @import "../blocks/block-cutaway/cutaway.scss";
 @import "../blocks/block-profile/profile.scss";
+@import "../blocks/block-contact/contact.scss";

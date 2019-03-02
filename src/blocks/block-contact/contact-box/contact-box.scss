@@ -1,0 +1,18 @@
+.contact-box {
+	.contact-box__wrapper {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		font-size: rem(22.66);
+		.contact-box__text {
+			line-height: 265%;
+			letter-spacing: -0.3px;
+		}
+		.contact-box__heading {
+			width: 31%;
+		}
+		.contact-box__desc {
+			margin: 0;
+		}
+	}
+}

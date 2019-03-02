@@ -1,3 +1,5 @@
+@import "default_color_bg_theme.scss";
+
 .heading {
 	width: 100%;
 	.heading__wrapper {
@@ -11,7 +13,6 @@
 				height: 80px - 10px;
 				margin: 4px;
 				position: relative;
-				background-color: $primary-color;
 				.heading__avatar {
 					position: absolute;               
    				top: 50%; 
@@ -23,13 +24,11 @@
 		}
 		.heading__text {
 			font-size: rem(45.33);
-			color: $primary-color;
 			padding: 0 1% 0 2%;
 		}
 		.heading__vert-line {
 			height: 5px;
 			flex-grow: 1;
-			background-color: $primary-color;
 		}
 	}
 }

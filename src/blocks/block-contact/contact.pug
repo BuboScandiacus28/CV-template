@@ -1,0 +1,10 @@
+.contact
+	div(class="contact__wrapper indent_wrapper_theme")
+		+heading("assets/img/contact-icon.png", "CONTACT")
+		.contact-container
+			.contact-container__wrapper
+				include contact-box/contact-box.pug
+				+contact-box("ADDRESS", "Main Street, City.")
+				+contact-box("E-MAIL", "contact@domain.com")
+				+contact-box("PHONE", "555-555-555")
+				+contact-box("WEBSITE", "www.yourweb.com")

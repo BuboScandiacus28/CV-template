@@ -2,7 +2,7 @@ mixin heading(src, text)
 	.heading
 		.heading__wrapper
 			div(class="heading__avatar-border theme_circle")
-				div(class="heading__avatar-container theme_circle")
+				div(class="heading__avatar-container default_bg_theme theme_circle")
 					img(src=src, class="heading__avatar theme_circle")
-			h3.heading__text=text
-			.heading__vert-line
+			h3(class="heading__text default_color_theme")=text
+			div(class="heading__vert-line default_bg_theme")
