@@ -7,6 +7,8 @@ html {
   line-height: $mainLineHeight;
 	font-size: $mainFontSize;
 	color: $mainFontColor;
+  max-width: 1920px;
+  width: 100%;
   height: 100%;
   @media screen and (max-width: $desktopWidth) {
 		font-size: 16px;
@@ -46,52 +48,28 @@ ul, li {
   padding: 0;
 }
 
-section, .section {
-  position: relative;
-  padding: 0 0;
-  @media screen and (max-width: $desktopWidth) {
-    padding: 36px 0;
-  }
-  @media screen and (max-width: $desktopWidth) {
-    padding: 28px 0;
-  }
-  @media screen and (max-width: $desktopWidth) {
-    padding: 20px 0;
-  }
+main {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .wrapper {
+  background-color: $primary-color;
+  margin: 6% 5%;
   display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: percH(118, $defaultHeight) percW(93, $defaultWidth) percH(148, $defaultHeight) percW(94, $defaultWidth);
+  justify-content: space-between;
 }
 
 .left-col {
-  width: percW(640, $defaultWidth);
+ background-color: #FFF;
+  width: 38%;
 }
 
-.content-wrapper {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.container {
-  width: 100%;
-  flex: 0 0 auto;
-  position: relative;
-  max-width: $desktopWidth;
-  margin: 0 auto;
-  @media screen and (max-width: $smDesktopWidth) {
-    max-width: tableWidth;
-  }
-  @media screen and (max-width: $tableWidth) {
-    max-width: phoneWidth;
-  }
-  @media screen and (max-width: $phoneWidth) {
-    max-width: smPhoneWidth;
-  }
+.right-col {
+ background-color: #fff;
+  width: 56.5%;
 }
 
 @import "../block-cutaway/cutaway.scss"

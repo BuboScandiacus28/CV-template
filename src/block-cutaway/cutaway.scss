@@ -2,25 +2,41 @@
 
 .cutaway {
 	width: 100%;
-	text-align: center;
-	.cutaway__avatar-border {
-		width: size(percW(359, 640));
-		.cutaway__avatar-container {
-			width: size(percW(314, 359));
-			.cutaway__avatar {
-				min-width: 100%;
+	.cutaway__wrapper {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin-top: 3%;
+		.cutaway__avatar-border {
+			width: 250px;
+			height: 250px;
+			margin-bottom: 7%;
+			.cutaway__avatar-container {
+				width: 250px - 18px;
+				height: 250px - 18px;
+				margin: 9px;
+				.cutaway__avatar {
+					max-width: 100%;
+				}
 			}
-		}//*/
-	}
-	.h1 {
-		font-size: rem(67.99);
-	}
-	.h2 {
-		font-family: $lightFont;
-		font-size: rem(57.54);
-	}
-	.h4 {
-		font-size: rem(27.52);
+		}
+		.cutaway__text {
+			line-height: 100%;
+		}
+		.h1 {
+			font-size: rem(67.99);
+			line-height: 90%;
+		}
+		.h2 {
+			font-family: $lightFont;
+			font-size: rem(57.54);
+		}
+		.h4 {
+			font-size: rem(27.52);
+			line-height: 200%;
+			letter-spacing: -1px;
+		}
 	}
 }
 
