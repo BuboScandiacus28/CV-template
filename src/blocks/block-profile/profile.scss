@@ -1,0 +1,19 @@
+@import "heading/heading.scss";
+
+.profile {
+	.profile__wrapper {
+		margin-top: 14.5%;
+		margin-right: 3%;
+		.profile__text-box {
+			margin-top: -2px;
+			.profile__text {
+				line-height: 120%;
+				letter-spacing: -0.12px;
+				.span {
+					font-weight: bold;
+					letter-spacing: 0.4px;
+				}
+			}
+		}
+	}
+}

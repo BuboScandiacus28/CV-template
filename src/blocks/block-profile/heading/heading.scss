@@ -1,0 +1,37 @@
+.heading {
+	width: 100%;
+	.heading__wrapper {
+		display: flex;
+		align-items: center;
+		.heading__avatar-border {
+			flex: 0 0 80px;
+			height: 80px;
+			.heading__avatar-container {
+				width: 80px - 10px;
+				height: 80px - 10px;
+				margin: 4px;
+				position: relative;
+				background-color: $primary-color;
+				.heading__avatar {
+					position: absolute;               
+   				top: 50%; 
+   				left: 50%;                       
+   				transform: translate(-50%, -50%);
+					max-width: 100%;
+				}
+			}
+		}
+		.heading__text {
+			font-size: rem(45.33);
+			color: $primary-color;
+			padding: 0 1% 0 2%;
+		}
+		.heading__vert-line {
+			height: 5px;
+			flex-grow: 1;
+			background-color: $primary-color;
+		}
+	}
+}
+
+ 

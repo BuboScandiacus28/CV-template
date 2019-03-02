@@ -1,4 +1,4 @@
-@import "cutaway_theme_circle.scss";
+@import "theme_circle.scss";
 
 .cutaway {
 	width: 100%;
@@ -13,9 +13,9 @@
 			height: 250px;
 			margin-bottom: 7%;
 			.cutaway__avatar-container {
-				width: 250px - 18px;
-				height: 250px - 18px;
-				margin: 9px;
+				width: 250px - 26px;
+				height: 250px - 26px;
+				margin: 13px;
 				.cutaway__avatar {
 					max-width: 100%;
 				}
