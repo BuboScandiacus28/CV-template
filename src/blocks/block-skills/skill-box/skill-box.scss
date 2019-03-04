@@ -1,0 +1,27 @@
+@import "../lock_theme.scss";
+
+.skill-box {
+	.skill-box__wrapper {
+		text-align: center;
+		width: 100%;
+		margin-top: 3%;
+		.skill-box__heading {
+			font-size: rem(28.33);
+			font-family: $lightFont;
+			//line-height: 265%;
+			//font-stretch: ultra-condensed;
+			letter-spacing: -1.5px;
+		}
+		.skill-box__doots-container {
+			width: 80%;
+			margin: auto;
+			margin-top: 1.3%;
+			.skill-box__doots {
+				width: 19px;
+				height: 19px;
+				display: inline-block;
+				margin: 0 1.04%;
+			}
+		}
+	}
+}

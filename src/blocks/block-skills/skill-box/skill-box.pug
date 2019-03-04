@@ -1,0 +1,13 @@
+mixin contact-box(name, assessment)
+	.skill-box
+		.skill-box__wrapper
+			h3.skill-box__heading=name
+			.skill-box__doots-container
+				- var i = 0;
+				while i < 12
+					if i < assessment
+						div(class="default_bg_theme skill-box__doots theme_circle")
+					else
+						div(class="lock_bg_theme skill-box__doots theme_circle")
+					- i++;
+

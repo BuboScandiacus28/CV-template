@@ -1,0 +1,13 @@
+@import "skill-box/skill-box.scss";
+
+.skills {
+	.skills__wrapper {
+		margin-top: 6.5%;
+		.skills-container {
+			.skills-container__wrapper {
+				margin-top: 5%;
+				width: 100%;
+			}
+		}
+	}
+}
