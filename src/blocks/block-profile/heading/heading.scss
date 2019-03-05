@@ -5,6 +5,7 @@
 	.heading__wrapper {
 		display: flex;
 		align-items: center;
+		width: 100%;
 		.heading__avatar-border {
 			flex: 0 0 80px;
 			height: 80px;
@@ -24,7 +25,7 @@
 		}
 		.heading__text {
 			font-size: rem(45.33);
-			padding: 0 1% 0 2%;
+			margin: 0 1% 0 2%;
 		}
 		.heading__vert-line {
 			height: 5px;

@@ -1,0 +1,12 @@
+@import "job/job.scss";
+@import "heading_margin_theme.scss";
+
+.education {
+	width: 100%;
+	.education__wrapper {
+		width: 100%;
+		.education__jobs-container {
+			margin: 5% 0;
+		}
+	}
+}

@@ -1,0 +1,10 @@
+mixin job(position, date, education, text)
+	.job
+		.job__wrapper
+			.job__doot-container
+				div(class="job__doot theme_circle")
+			.job__content-container
+				h4(class="job__heading default_color_theme h4")=position
+					span.job__date=" // " + date
+				h4(class="job__education h4")=education
+				p.job__text=text
