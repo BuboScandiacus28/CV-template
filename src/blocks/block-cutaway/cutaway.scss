@@ -4,13 +4,14 @@
 	width: 100%;
 	.cutaway__wrapper {
 		width: 100%;
+		text-align: center;
 		display: flex;
-		justify-content: center;
-		flex-wrap: wrap;
+		flex-direction: column;
 		margin-top: 3%;
 		.cutaway__avatar-border {
 			width: 250px;
 			height: 250px;
+			margin: 0 auto;
 			margin-bottom: 7%;
 			.cutaway__avatar-container {
 				width: 250px - 26px;
