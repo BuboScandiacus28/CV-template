@@ -1,0 +1,13 @@
+.software
+	div(class="software__wrapper heading_margin_theme")
+		+heading("assets/img/software-icon.png", "SOFTWARE")
+		include software-progress/software-progress.pug 
+		.software__content
+			div(class="software__col software__left-col")
+				+progress-bar("PHOTOSHOP", 91)
+				+progress-bar("ILLUSTRATOR", 70)
+				+progress-bar("INDESIGN", 57)
+			div(class="software__col software__right-col")
+				+progress-bar("DREAMWEAVER", 84)
+				+progress-bar("AFTER EFFECTS", 62)
+				+progress-bar("HTML&CSS3", 92)

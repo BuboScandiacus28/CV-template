@@ -1,0 +1,20 @@
+.software-progress {
+	.software-progress__wrapper {
+		margin-bottom: 6.5%;
+		.software-progress__text {
+			font-size: rem(28.33);
+			font-family: $lightFont;
+			letter-spacing: -1px;
+		}
+		.software-progress__progress-bar-container {
+			height: 24px;
+			width: 98%;
+			background-color: $lock-color;
+			margin-top: 3.5%;
+			.software-progress__progress-bar {
+				height: 100%;
+				background-color: $primary-color;
+			}
+		}
+	}
+}

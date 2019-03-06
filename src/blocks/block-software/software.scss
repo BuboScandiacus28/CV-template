@@ -1,0 +1,15 @@
+@import "software-progress/software-progress.scss";
+
+.software {
+	.software__wrapper {
+		margin-top: 7.5%;
+		.software__content {
+			display: flex;
+			justify-content: space-between;
+			margin: 3.4% 0 0 1.5%;
+			.software__col {
+				width: 45%;
+			}
+		}
+	}
+}
