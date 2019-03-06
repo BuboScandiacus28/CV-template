@@ -5,17 +5,27 @@
 		.job__doot-container {
 			margin: 0 3% 0 2%;
 			align-self: flex-start;
+			@media screen and (max-width: $smPhoneWidth) {
+				margin: 0 1.5%;
+ 			}
 			.job__doot {
 				width: 22px;
 				height: 22px;
 				background-color: #000;
 				border-color: #000;
+				@media screen and (max-width: $phoneWidth) {
+					width: 15px;
+					height: 15px;
+ 				}
 			}
 		}
 		.job__content-container {
 			flex-grow: 1;
 			.h4 {
 				font-size: rem(28.33);
+				@media screen and (max-width: $smPhoneWidth) {
+					font-size: rem(26);
+ 				}
 			}
 			.job__heading {
 				line-height: 60%;
